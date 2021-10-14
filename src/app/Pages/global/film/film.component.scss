@@ -1,0 +1,19 @@
+.film__container {
+    
+    color: white;
+
+    .filmGen {
+        font-weight: lighter;
+    }
+    
+    .film__gallery {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 140%;
+        gap: 10px;
+        
+        
+        
+    }
+}

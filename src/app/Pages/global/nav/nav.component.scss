@@ -1,0 +1,33 @@
+
+
+.nav__container{
+    
+    
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    h1{
+        font-size:20px ;
+        margin-right: 1500px;
+        margin-top: 30px;
+        font-weight: lighter;
+    }
+    
+    img{
+        width: 90px;
+        height: 90px;
+    }
+    a{
+        padding: 20px;
+        text-decoration: none;
+        color: white;
+        
+        
+        
+        
+
+        
+
+    }
+}

@@ -1,0 +1,49 @@
+.hero__container {
+    
+    color: white;
+    .topFive {
+        font-weight: lighter;
+    }
+    
+    .hero__gallery {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        counter-increment: principal 1;
+        counter-reset: principal;
+        counter-set: principal 0;
+        
+
+      
+        ::before{
+            
+            color:black;
+            -webkit-text-stroke: 5px rgb(190, 190, 190);
+            font-size: 300px;
+            font-weight: bold;
+            content: counter(principal);
+            counter-increment: principal 1;
+            margin-right: -30px;
+            vertical-align: center
+            
+            
+            
+       
+            
+           
+            
+        }
+        img{
+            width: 50%;
+            
+          
+           
+            
+            
+        }
+        
+    }
+}
+
+
